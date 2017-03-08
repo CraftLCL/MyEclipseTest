@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>AddGoodView.html</title>
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+
+</head>
+
+<body>
+	<div class="container-fluid">
+		<h1>添加商品</h1>
+		<form class="form-horizontal" action="/MyWeb20170317/AddGoodsServlet" method="post">
+			<div class="form-group">
+				<label for="inputEmail3" class="col-sm-2 control-label">商品名</label>
+				<div class="col-sm-10">
+					<input type="text" class="form-control" id="goodName" name="goodName"
+						>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="inputPassword3" class="col-sm-2 control-label">商品数量</label>
+				<div class="col-sm-10">
+					<input type="text" class="form-control" id="inputPassword3" name="goodNum"
+						>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="inputPassword3" class="col-sm-2 control-label">商品价格</label>
+				<div class="col-sm-10">
+					<input type="text" class="form-control" id="inputPassword3" name="goodPrice"
+						>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" class="btn btn-default">保存</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+
+	<script src="./js/bootstrap.js" type="text/javascript"></script>
+	<script src="./js/jquery-2.1.1.js" type="text/javascript"></script>
+</body>
+</html>
